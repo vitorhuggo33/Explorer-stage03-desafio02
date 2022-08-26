@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+body::before {
+  content: '';
+  background: #535971;
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  z-index: -1;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  font-family: 'Staatliches', cursive;
+  padding-top: 140px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  color: #535971;
+  margin-bottom: 8px;
+}
+
+label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4E4958;
+  font-family: 'Poppins', sans-serif;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+  margin-bottom: 58px;
+}
+
+form {
+  padding: 30px 64px 34px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+  border: none;
+  padding-top: 20px;
+}
+
+span {
+  color: #C1BCCC;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+span:hover {
+  color: #8f8a9b;
+}
+
+fieldset legend {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+  margin-bottom: 36px;
+}
+
+.fieldset-wrapper h2 {
+  margin-bottom: 8px;
+}
+
+.col-2 {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.input-wrapper label {
+  margin-bottom: 8px;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+  color: #C1BCCC;
+
+}
+
+.col-3 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+
+.col-3 > div:nth-child(1) {
+  width: 200%;
+  margin-right: 22px;
+
+}
+
+
+footer {
+  width: 750px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  padding: 52px 71px;
+}
+
+footer input {
+  background: #FF5374;
+  border-radius: 20px;
+  width: 100%;
+  border: none;
+  padding: 15px 40px;;
+  font-family: 'Staatliches', cursive;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+footer input:hover {
+  background: #cc405c;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
